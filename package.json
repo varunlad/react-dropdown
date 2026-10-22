@@ -1,0 +1,33 @@
+{
+  "name": "@varunlad9/react-dropdown",
+  "version": "0.1.0",
+  "description": "A customizable React dropdown with single select, multi select, and search",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "keywords": [
+    "react",
+    "dropdown",
+    "select",
+    "combobox"
+  ]
+}
