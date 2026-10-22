@@ -1,7 +1,7 @@
 {
-  "name": "@varunlad9/react-dropdown",
-  "version": "0.1.0",
-  "description": "A customizable React dropdown with single select, multi select, and search",
+  "name": "@varunlad9/multi-dropdown",
+  "version": "1.0.0",
+  "description": "A customizable React dropdown with single select, multi select, search, custom accent colors and animations",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -28,10 +28,5 @@
     "react": ">=18",
     "react-dom": ">=18"
   },
-  "keywords": [
-    "react",
-    "dropdown",
-    "select",
-    "combobox"
-  ]
+  "keywords": "react,dropdown,select,multiselect,combobox,searchable"
 }
