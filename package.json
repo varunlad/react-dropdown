@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A customizable React dropdown with single select, multi select, and search",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varunlad/react-dropdown.git"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
